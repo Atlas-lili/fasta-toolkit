@@ -1,0 +1,19 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/index.ts --outDir dist",
+    "assemble": "node dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  }
+}
